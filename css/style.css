@@ -70,3 +70,11 @@
 .card-change:hover {
 	transform: scale(1.5);
 }
+.inline {
+	width: 100%;
+	display: inline-flex;
+	/* align-items: flex-end; */
+}
+.align {
+	justify-self: flex-end;
+}
