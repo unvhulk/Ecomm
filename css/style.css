@@ -18,15 +18,18 @@
 	padding-top: 5px;
 }
 .card-container:hover {
-	transform: scale(1.02) rotate(2deg);
+	transform: scale(1.05) rotate(2deg);
+}
+.card-shadow:hover {
+	transform: scale(1.02);
 }
 .input {
-	padding: 0 16px;
+	padding: 0 1rem;
 	border-radius: 2px 0 0 2px;
 	border: 0;
 	outline: 0 none;
-	font-size: 14px;
-	height: 36px;
+	font-size: 1.5rem;
+	height: 4.25rem;
 	width: 100%;
 }
 .search-bar {
@@ -57,7 +60,7 @@
 	top: 120%;
 	right: 0;
 	z-index: 2;
-	color: aliceblue;
+	color: var(--off-green);
 	vertical-align: middle;
 }
 .lt {
@@ -70,6 +73,7 @@
 .card-change:hover {
 	transform: scale(1.5);
 }
+<<<<<<< HEAD
 .inline {
 	width: 100%;
 	display: inline-flex;
@@ -77,4 +81,38 @@
 }
 .align {
 	justify-self: flex-end;
+=======
+.button {
+	color: var(--COLOR-BLACK);
+}
+.vertical-cards {
+	border-collapse: separate;
+	border-spacing: 0 15px;
+}
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+	margin: 5rem 0 auto;
+	padding: var(--space-10);
+	background-color: var(--secondary-text);
+	color: var(--font-silver);
+}
+.footer-logo {
+	font-size: 7rem;
+	text-align: left;
+	color: var(--COLOR-SECONDARY);
+}
+.footer-nav {
+	display: flex;
+	font-size: large;
+	gap: 2rem;
+}
+.footer-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+>>>>>>> ca30f9bc331ca74ebfec432805ecd3fcab536085
 }
