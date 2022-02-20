@@ -7,15 +7,12 @@
 	box-shadow: 5px 5px 1.5rem 2px var(--BOX-SHADOW);
 }
 .badge {
-	/* width: 1.8rem;
-	height: 1.8rem; */
 	border-radius: 50%;
 	background-color: var(--NOTIFICATION-COLOR);
 	color: var(--COLOR-WHITE);
-	text-align: center;
-	font-size: x-small;
 	position: absolute;
-	padding-top: 5px;
+	padding-bottom: 10px;
+	padding-top: 0%;
 }
 .card-container:hover {
 	transform: scale(1.05) rotate(2deg);
