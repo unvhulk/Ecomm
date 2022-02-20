@@ -7,15 +7,12 @@
 	box-shadow: 5px 5px 1.5rem 2px var(--BOX-SHADOW);
 }
 .badge {
-	width: 1.8rem;
-	height: 1.8rem;
 	border-radius: 50%;
 	background-color: var(--NOTIFICATION-COLOR);
 	color: var(--COLOR-WHITE);
-	text-align: center;
-	font-size: x-small;
 	position: absolute;
-	padding-top: 5px;
+	padding-bottom: 10px;
+	padding-top: 0%;
 }
 .card-container:hover {
 	transform: scale(1.05) rotate(2deg);
@@ -35,9 +32,7 @@
 .search-bar {
 	display: flex;
 	position: static;
-	float: none;
 	flex-flow: row nowrap;
-	z-index: 5;
 }
 .overlay-text {
 	position: absolute;
@@ -59,15 +54,13 @@
 .rt {
 	top: 120%;
 	right: 0;
-	z-index: 2;
 	color: var(--off-green);
 	vertical-align: middle;
 }
 .lt {
 	top: 120%;
 	left: 0;
-	z-index: 2;
-	color: aliceblue;
+	color: var(--off-green);
 	vertical-align: middle;
 }
 .card-change:hover {
@@ -82,15 +75,15 @@
 	border-spacing: 0 15px;
 }
 .footer {
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	text-align: center;
 	align-items: center;
 	margin: 10px auto;
-	padding: var(--space-10);
 	background-color: var(--secondary-text);
-	color: var(--font-silver);
+	color: var(--secondary-text);
 }
 .footer-logo {
 	height: 8rem;
@@ -106,6 +99,14 @@
 	justify-content: space-between;
 	align-items: center;
 }
+.link {
+	color: var(--COLOR-WHITE);
+}
+.flex-items {
+	flex-wrap: wrap;
+	justify-content: space-around;
+	row-gap: 1.5rem;
+}
 .parent-positioning img {
 	height: 20rem;
 	width: auto;
@@ -114,5 +115,5 @@
 	margin: 8px 0 0 8px;
 }
 .icon-overlay {
-	right: 20px;
+	right: 2.2rem;
 }
