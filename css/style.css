@@ -73,15 +73,6 @@
 .card-change:hover {
 	transform: scale(1.5);
 }
-<<<<<<< HEAD
-.inline {
-	width: 100%;
-	display: inline-flex;
-	/* align-items: flex-end; */
-}
-.align {
-	justify-self: flex-end;
-=======
 .button {
 	color: var(--COLOR-BLACK);
 }
@@ -114,5 +105,12 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
->>>>>>> ca30f9bc331ca74ebfec432805ecd3fcab536085
+}
+.link {
+	color: var(--COLOR-WHITE);
+}
+.flex-items {
+	flex-wrap: wrap;
+	justify-content: space-around;
+	row-gap: 1.5rem;
 }
