@@ -75,6 +75,7 @@
 }
 .button {
 	color: var(--COLOR-BLACK);
+	width: 16rem;
 }
 .vertical-cards {
 	border-collapse: separate;
@@ -86,7 +87,7 @@
 	justify-content: space-between;
 	text-align: center;
 	align-items: center;
-	margin: 5rem 0 auto;
+	margin: 10px auto;
 	padding: var(--space-10);
 	background-color: var(--secondary-text);
 	color: var(--font-silver);
@@ -104,4 +105,14 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+.parent-positioning img {
+	height: 20rem;
+	width: auto;
+}
+.card-margin {
+	margin: 8px 0 0 8px;
+}
+.icon-overlay {
+	right: 20px;
 }
