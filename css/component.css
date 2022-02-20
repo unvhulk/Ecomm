@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("/css/style.css");
+:root {
+	--COLOR-PRIMARY: #01ccff;
+	--COLOR-SECONDARY: #27e4b5;
+	--COLOR-SOCIAL-ICON: #308ea5;
+	--PRIMARY-HOVER: #7a9ea7;
+	--NOTIFICATION-COLOR: #7cf916;
+	--offgreen: #bacfc0;
+	--darkerofseconadary: #2195d8;
+	--BOX-SHADOW: #af9898;
+	--BOX-SHADOW-LIGHTER: #4e4c25;
+	--ALERT-PRIMARY-COLOR: #2563eb;
+	--ALERT-SUCCESS-COLOR: #0de01f;
+	--ALERT-ERROR-COLOR: #e72222;
+	--ALERT-WARNING-COLOR: #f8cb03;
+	--COLOR-WHITE: #ffffff;
+	--LINK: #3c83f6;
+	--LINK-HOVER: #2563eb;
+	--COLOR-BLACK: #0e0d0d;
+	--ONLINE-BADGE: #1c852f;
+	--DND-BADGE: #ff0000;
+	--OFFLINE-BADGE: #707070;
+	--BACKGROUND-BODY-COLOR: #333d3f;
+	--BACKGROUND-BODY-COLOR-DARK: #0f1b1d;
+	--secondary-txt: #808080;
+	font-size: 62.5%;
+}
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.6rem;
+	background-color: VAR(--BACKGROUND-BODY-COLOR);
+	color: var(--COLOR-WHITE);
+}
