@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>E-commerce | Cart</title>
+		<title>E-commerce | Signup</title>
 		<script
 			src="https://kit.fontawesome.com/6056b5574b.js"
 			crossorigin="anonymous"
@@ -56,63 +56,51 @@
 			</div>
 		</div>
 		<main class="main-container">
-			<div class="component-display-container cart-items vertical-cards">
-				<div class="cart-header">
-					<h1 class="fa">My Cart</h1>
-				</div>
-				<div class="flex-items">
-					<div class="cart-comp">
-						<img src="/assets/cp1.jpg" alt="img" />
-						<div class="cart-des">
-							<h2 class="prd-title fa"> God Of War </h2>
-							<p class="card-item-cost">Rs.3299</p>
-							<p class="card-item-cost txt-strike-through txt-secondary"
-								>Rs.3999</p
-							>
-							<button class="btn btn-prm">Remove from Cart</button>
-							<button class="btn btn-secc">Move To Wishlist</button>
-							<div class="cart-qty-con">
-								<label for="quantity">Quantity:</label>
-								<select name="quantity" id="quantity">
-									<option value="1" selected="">1</option>
-									<option value="2">2</option>
-									<option value="3">3</option>
-									<option value="4">4</option>
-									<option value="5">5</option>
-								</select>
-								<button class="trash-btn">
-									<i class="fa fa-trash-o"></i>
-								</button>
-							</div>
+			<div
+				class="component-display-container cart-items flex-items vertical-cards"
+			>
+				<div class="component-display-container form-con">
+					<form class="input-form">
+						<div class="cart-header">
+							<h1 class="fa">signup</h1>
 						</div>
-					</div>
-					<div class="checkout-container">
-						<div class="checkout">
-							<h3 class="checkout-title">Checkout</h3>
-							<hr />
-							<div class="checkout-des">
-								<p>Price (1 item)</p>
-								<p class="checkout-des-price">$3999</p>
-							</div>
-							<div class="checkout-des">
-								<p>Discount</p>
-								<p class="checkout-des-price">-$700</p>
-							</div>
-							<div class="checkout-des">
-								<p>Delivery Charges</p>
-								<p class="checkout-des-price">$49</p>
-							</div>
-							<hr />
-							<div class="checkout-des">
-								<h3>TOTAL</h3>
-								<h3 class="checkout-des-price">$3250</h3>
-							</div>
-							<hr />
-							<p>You will save $749 on this order</p>
-
-							<button class="checkout-btn">PLACE ORDER</button>
+						<label for="email-input" class="fa">email </label>
+						<input
+							type="email"
+							placeholder="john.doe@xyz.com"
+							class="form-input-box"
+						/>
+						<label for="password" class="fa">password </label>
+						<input
+							type="password"
+							minlength="8"
+							placeholder="Enter password"
+							class="form-input-box password"
+						/>
+						<label for="password" class="fa">confirm password </label>
+						<input
+							type="password"
+							minlength="8"
+							placeholder="Enter password"
+							class="form-input-box password"
+						/>
+						<div class="remember-txt">
+							<input type="checkbox" />
+							<button class="btn-sec">
+								<span class="secondary-txt">Create new account</span>
+								Signup
+							</button>
 						</div>
-					</div>
+						<a href="/components/Logout/logout.html"
+							><button class="button form-btn" type="submit">Login</button>
+						</a>
+						<a href="/components/Signup/signup.html" class="btn-con">
+							<button class="btn-sec">
+								<span class="secondary-txt">Create new account</span>
+								Signup
+							</button>
+						</a>
+					</form>
 				</div>
 			</div>
 		</main>

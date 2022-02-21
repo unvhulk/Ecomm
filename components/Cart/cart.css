@@ -69,13 +69,13 @@
 	color: var(--COLOR-BLACK);
 }
 
-.btn-sec {
+.btn-secc {
 	background: var(--BACKGROUND-BODY-COLOR-DARK);
 	border: none;
 	color: var(--COLOR-WHITE);
 }
 
-.btn-sec:hover {
+.btn-secc:hover {
 	background: var(--secondary-txt);
 	color: var(--COLOR-BLACK);
 }
@@ -106,12 +106,13 @@
 	cursor: pointer;
 	border: none;
 	background: none;
-	color: var(--icon-count-bg);
+	color: var(--ALERT-ERROR-COLOR);
 	transition: 0.2s;
 }
 
 .trash-btn:hover {
 	background: var(--ALERT-ERROR-COLOR);
+	color: var(--COLOR-WHITE);
 }
 
 .checkout-container {
