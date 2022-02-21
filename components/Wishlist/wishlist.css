@@ -5,8 +5,8 @@
 .cart-header {
 	text-align: center;
 	width: inherit;
-	padding: 25px;
+	padding: 2rem;
 }
-.icon-overlay.cart {
+.icon-overlay.wish {
 	color: var(--ALERT-ERROR-COLOR);
 }

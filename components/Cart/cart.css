@@ -22,7 +22,10 @@
 	width: 75rem;
 }
 .cart-comp img {
-	scale: 0.4;
+	-webkit-transform: scale(0.4);
+	-moz-transform: scale(0.4);
+	-o-transform: scale(0.4);
+	transform: scale(0.4);
 	margin: -20rem -10rem -20rem -30rem;
 }
 
@@ -148,8 +151,7 @@
 	padding: 1.5rem;
 	cursor: pointer;
 	background: var(--COLOR-BLACK);
-	color: var(--TEXT-COLOR-PRIMARY);
-	transition: 0.2s ease;
+	color: var(--COLOR-WHITE);
 	border: none;
 }
 

@@ -9,7 +9,7 @@
 .badge {
 	border-radius: 50%;
 	background-color: var(--NOTIFICATION-COLOR);
-	color: var(--COLOR-WHITE);
+	color: var(--COLOR-BLACK);
 	position: absolute;
 	padding-bottom: 10px;
 	padding-top: 0%;
@@ -32,9 +32,7 @@
 .search-bar {
 	display: flex;
 	position: static;
-	float: none;
 	flex-flow: row nowrap;
-	z-index: 5;
 }
 .overlay-text {
 	position: absolute;
@@ -42,7 +40,7 @@
 	top: 15rem;
 	left: 0;
 	background-color: var(--COLOR-SOCIAL-ICON);
-	color: var(--COLOR-WHITE);
+	color: var(--COLOR-BLACK);
 	padding: 1rem 1rem 1rem 1rem;
 	border-radius: 4px;
 	text-align: center;
@@ -56,15 +54,13 @@
 .rt {
 	top: 120%;
 	right: 0;
-	z-index: 2;
 	color: var(--off-green);
 	vertical-align: middle;
 }
 .lt {
 	top: 120%;
 	left: 0;
-	z-index: 2;
-	color: aliceblue;
+	color: var(--off-green);
 	vertical-align: middle;
 }
 .card-change:hover {
@@ -119,5 +115,5 @@
 	margin: 8px 0 0 8px;
 }
 .icon-overlay {
-	right: 20px;
+right: 2.2rem;
 }
