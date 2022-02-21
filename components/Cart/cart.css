@@ -159,6 +159,8 @@
 .checkout-btn:hover {
 	background: var(--COLOR-SECONDARY);
 	color: var(--COLOR-BLACK);
+	width: inherit;
+	padding: 2rem;
 }
 
 .container-box {
