@@ -22,6 +22,9 @@
 	width: 75rem;
 }
 .cart-comp img {
+	-webkit-scale: 0.4;
+	-moz-scale: 0.4;
+	-o-scale: 0.4;
 	scale: 0.4;
 	margin: -20rem -10rem -20rem -30rem;
 }
