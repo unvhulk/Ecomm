@@ -19,16 +19,13 @@
 		<div class="component-display-container nav-bar">
 			<div class="nav-container">
 				<div class="nav-brand"
-					><img class="logo" src="/asssets/logo.svg" alt="logo" />
+					><img class="logo" src="/assets/logo.png" alt="logo" />
 					<a class="component-library-link nav-icons" href="../../index.html">
 						<i class="fa">Xero</i></a
 					></div
 				>
 				<div class="search-bar">
-					<input
-						class="input"
-						placeholder="Search for products, brands and more..."
-					/>
+					<input class="input" placeholder="Search for products..." />
 					<button class="search-btn fa fa-search"></button>
 				</div>
 				<ul class="nav-flex">
@@ -41,7 +38,7 @@
 					</div>
 					<div class="badge-wrapper"
 						><li class="list-style">
-							<a class="link" href="#">
+							<a class="link" href="/components/Wishlist/wishlist.html">
 								<i class="fa fa-heart nav-icons"></i>
 								<div class="badge icon">5</div>
 							</a>
@@ -49,7 +46,7 @@
 					</div>
 					<div class="badge-wrapper"
 						><li class="list-style">
-							<a class="link" href="#">
+							<a class="link" href="/components/Cart/cart.html">
 								<i class="fa fa-shopping-cart nav-icons"></i>
 								<div class="badge icon">5</div>
 							</a>
@@ -59,80 +56,61 @@
 			</div>
 		</div>
 		<main class="main-container">
-			<div
-				class="component-display-container cart-items flex-items vertical-cards"
-			>
+			<div class="component-display-container cart-items vertical-cards">
 				<div class="cart-header">
-					<h1 class="fa">Cart Items</h1>
+					<h1 class="fa">My Cart</h1>
 				</div>
-				<div class="card-container card-shadow">
-					<div class="parent-positioning">
-						<div class="card-margin"
-							><img src="/asssets/cp1.jpg" alt="card-image"
-						/></div>
-						<div class="inside-container">
-							<h3>God Of War</h3>
-							<span class="card-content">Latest Arrival</span>
-							<p class="card-item-cost">Rs.3999</p>
-							<button class="button card-button">Add to Cart</button>
-							<span class="badge-overlay">New</span>
-							<i class="fa fa-heart-o icon-btn icon-size icon-overlay cart"></i>
+				<div class="flex-items">
+					<div class="cart-comp">
+						<img src="/assets/cp1.jpg" alt="img" />
+						<div class="cart-des">
+							<h2 class="prd-title fa"> God Of War </h2>
+							<p class="card-item-cost">Rs.3299</p>
+							<p class="card-item-cost txt-strike-through txt-secondary"
+								>Rs.3999</p
+							>
+							<button class="btn btn-prm">Remove from Cart</button>
+							<button class="btn btn-sec">Move To Wishlist</button>
+							<div class="cart-qty-con">
+								<label for="quantity">Quantity:</label>
+								<select name="quantity" id="quantity">
+									<option value="1" selected="">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+								</select>
+								<button class="trash-btn">
+									<i class="fa fa-trash-o"></i>
+								</button>
+							</div>
 						</div>
-					</div> </div
-				><div class="card-container card-shadow">
-					<div class="parent-positioning">
-						<div class="card-margin"
-							><img src="/asssets/cp1.jpg" alt="card-image"
-						/></div>
-						<div class="inside-container">
-							<h3>God Of War</h3>
-							<span class="card-content">Latest Arrival</span>
-							<p class="card-item-cost">Rs.3999</p>
-							<button class="button card-button">Add to Cart</button>
-							<span class="badge-overlay">New</span>
-							<i class="fa fa-heart-o icon-btn icon-size icon-overlay cart"></i>
-						</div>
-					</div> </div
-				><div class="card-container card-shadow">
-					<div class="parent-positioning">
-						<div class="card-margin"
-							><img src="/asssets/cp1.jpg" alt="card-image"
-						/></div>
-						<div class="inside-container">
-							<h3>God Of War</h3>
-							<span class="card-content">Latest Arrival</span>
-							<p class="card-item-cost">Rs.3999</p>
-							<button class="button card-button">Add to Cart</button>
-							<span class="badge-overlay">New</span>
-							<i class="fa fa-heart-o icon-btn icon-size icon-overlay cart"></i>
-						</div>
-					</div> </div
-				><div class="card-container card-shadow">
-					<div class="parent-positioning">
-						<div class="card-margin"
-							><img src="/asssets/cp1.jpg" alt="card-image"
-						/></div>
-						<div class="inside-container">
-							<h3>God Of War</h3>
-							<span class="card-content">Latest Arrival</span>
-							<p class="card-item-cost">Rs.3999</p>
-							<button class="button card-button">Add to Cart</button>
-							<span class="badge-overlay">New</span>
-							<i class="fa fa-heart-o icon-btn icon-size icon-overlay cart"></i>
-						</div>
-					</div> </div
-				><div class="card-container card-shadow">
-					<div class="parent-positioning">
-						<div class="card-margin"
-							><img src="/asssets/cp1.jpg" alt="card-image"
-						/></div>
-						<div class="inside-container">
-							<h3>God Of War</h3>
-							<span class="card-content">Latest Arrival</span>
-							<p class="card-item-cost">Rs.3999</p>
-							<button class="button card-button">Add to Cart</button>
-							<span class="badge-overlay">New</span>
-							<i class="fa fa-heart-o icon-btn icon-size icon-overlay cart"></i>
+					</div>
+					<div class="checkout-container">
+						<div class="checkout">
+							<h3 class="checkout-title">Checkout</h3>
+							<hr />
+							<div class="checkout-des">
+								<p>Price (1 item)</p>
+								<p class="checkout-des-price">$3999</p>
+							</div>
+							<div class="checkout-des">
+								<p>Discount</p>
+								<p class="checkout-des-price">-$700</p>
+							</div>
+							<div class="checkout-des">
+								<p>Delivery Charges</p>
+								<p class="checkout-des-price">$49</p>
+							</div>
+							<hr />
+							<div class="checkout-des">
+								<h3>TOTAL</h3>
+								<h3 class="checkout-des-price">$3250</h3>
+							</div>
+							<hr />
+							<p>You will save $749 on this order</p>
+
+							<button class="checkout-btn">PLACE ORDER</button>
 						</div>
 					</div>
 				</div>
@@ -141,7 +119,7 @@
 		<footer class="footer">
 			<div class="footer-content">
 				<div>
-					<img class="footer-logo" src="/asssets/logo.svg" alt="logo" />
+					<img class="footer-logo" src="/assets/logo.png" alt="logo" />
 				</div>
 				<div class="footer-nav">
 					<a class="link" href="https://github.com/unvhulk">
