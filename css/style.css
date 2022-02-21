@@ -7,15 +7,12 @@
 	box-shadow: 5px 5px 1.5rem 2px var(--BOX-SHADOW);
 }
 .badge {
-	width: 1.8rem;
-	height: 1.8rem;
 	border-radius: 50%;
 	background-color: var(--NOTIFICATION-COLOR);
 	color: var(--COLOR-WHITE);
-	text-align: center;
-	font-size: x-small;
 	position: absolute;
-	padding-top: 5px;
+	padding-bottom: 10px;
+	padding-top: 0%;
 }
 .card-container:hover {
 	transform: scale(1.05) rotate(2deg);
@@ -82,15 +79,15 @@
 	border-spacing: 0 15px;
 }
 .footer {
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	text-align: center;
 	align-items: center;
 	margin: 10px auto;
-	padding: var(--space-10);
 	background-color: var(--secondary-text);
-	color: var(--font-silver);
+	color: var(--secondary-text);
 }
 .footer-logo {
 	height: 8rem;
@@ -105,6 +102,14 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+.link {
+	color: var(--COLOR-WHITE);
+}
+.flex-items {
+	flex-wrap: wrap;
+	justify-content: space-around;
+	row-gap: 1.5rem;
 }
 .parent-positioning img {
 	height: 20rem;
