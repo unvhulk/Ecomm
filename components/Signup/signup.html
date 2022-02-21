@@ -55,50 +55,35 @@
 				</ul>
 			</div>
 		</div>
-		<main class="main-container">
-			<div
-				class="component-display-container cart-items flex-items vertical-cards"
-			>
+		<main class="main-container form">
+			<div class="component-display-container cart-items flex-items">
 				<div class="component-display-container form-con">
+					<div class="cart-header">
+						<h1 class="fa">Signup</h1>
+					</div>
 					<form class="input-form">
-						<div class="cart-header">
-							<h1 class="fa">signup</h1>
-						</div>
 						<label for="email-input" class="fa">email </label>
 						<input
 							type="email"
-							placeholder="john.doe@xyz.com"
+							placeholder=" john.doe@xyz.com"
 							class="form-input-box"
 						/>
 						<label for="password" class="fa">password </label>
 						<input
 							type="password"
 							minlength="8"
-							placeholder="Enter password"
+							placeholder=" ************************"
 							class="form-input-box password"
 						/>
-						<label for="password" class="fa">confirm password </label>
-						<input
-							type="password"
-							minlength="8"
-							placeholder="Enter password"
-							class="form-input-box password"
-						/>
-						<div class="remember-txt">
-							<input type="checkbox" />
-							<button class="btn-sec">
-								<span class="secondary-txt">Create new account</span>
-								Signup
-							</button>
+						<div class="forget-pass">
+							<div class="terms-txt">
+								<input type="checkbox" />
+								<span class="rem-txt">I accept all Terms & Conditions</span>
+							</div>
 						</div>
-						<a href="/components/Logout/logout.html"
-							><button class="button form-btn" type="submit">Login</button>
-						</a>
-						<a href="/components/Signup/signup.html" class="btn-con">
-							<button class="btn-sec">
-								<span class="secondary-txt">Create new account</span>
-								Signup
-							</button>
+						<button class="button form-btn" type="submit">Signup</button>
+						<a class="btn-sec" href="/components/Login/login.html">
+							<span class="secondary-txt">Already have an account ></span>
 						</a>
 					</form>
 				</div>

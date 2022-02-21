@@ -1,5 +1,5 @@
 .forget-pass {
-	gap: 2rem;
+	gap: 1rem;
 	display: flex;
 	flex-direction: column;
 	width: 100%;
@@ -51,8 +51,6 @@
 	color: var(--COLOR-BLACK);
 }
 .btn-sec:hover {
-	/* background: var(--secondary-txt); */
-	/* color: var(--COLOR-BLACK); */
 	cursor: pointer;
 }
 .input-form {
@@ -63,5 +61,5 @@
 	border-radius: 5px;
 }
 .main-container.form {
-	/* padding: auto; */
+	height: 58rem;
 }
