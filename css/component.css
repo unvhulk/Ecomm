@@ -3,6 +3,9 @@
 @import url("/components/Products/products.css");
 @import url("/components/Wishlist/wishlist.css");
 @import url("/components/Cart/cart.css");
+@import url("/components/Login/login.css");
+@import url("/components/Signup/signup.css");
+@import url("/components/Logout/logout.html");
 :root {
 	--COLOR-PRIMARY: #01ccff;
 	--COLOR-SECONDARY: #27e4b5;

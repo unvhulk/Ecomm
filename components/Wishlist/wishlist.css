@@ -10,3 +10,7 @@
 .icon-overlay.wish {
 	color: var(--ALERT-ERROR-COLOR);
 }
+.main-container.wish {
+	margin-bottom: 2rem;
+	height: 60rem;
+}
