@@ -151,15 +151,13 @@
 	padding: 1.5rem;
 	cursor: pointer;
 	background: var(--COLOR-BLACK);
-	color: var(--TEXT-COLOR-PRIMARY);
+	color: var(--COLOR-WHITE);
 	border: none;
 }
 
 .checkout-btn:hover {
 	background: var(--COLOR-SECONDARY);
 	color: var(--COLOR-BLACK);
-	width: inherit;
-	padding: 2rem;
 }
 
 .container-box {
