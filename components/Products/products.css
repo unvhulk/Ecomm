@@ -28,3 +28,10 @@
 	width: 100%;
 	height: fit-content;
 }
+.slider {
+	display: flex;
+	flex-direction: row;
+}
+.slider-lt {
+	margin-right: auto;
+}
